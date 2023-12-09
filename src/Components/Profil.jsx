@@ -39,7 +39,7 @@ const Profil = () => {
             <div className="flex flex-col justify-center md:justify-center items-center w-full">
               <p className="font-bold text-4xl mb-4">Fan</p>
               <img
-                src="/src/assets/img/Fan.png"
+                src="/assets/img/Fan.png"
                 alt="fanBadge"
                 className="w-64 md:w-80 rotate lg:w-96 xl:w-80 2xl:w-96"
               />
@@ -52,7 +52,7 @@ const Profil = () => {
             <div className="flex flex-row justify-around md:justify-between items-center md:w-full">
               <div className="flex flex-col justify-center items-center">
                 <img
-                  src="/src/assets/img/SuperFan.png"
+                  src="/assets/img/SuperFan.png"
                   alt="superFanBadge"
                   className="w-14 mb-2 md:w-20 lg:w-12  xl:w-14 2xl:w-24 rotate"
                 />
@@ -60,7 +60,7 @@ const Profil = () => {
               </div>
               <div className="flex flex-col justify-center items-center">
                 <img
-                  src="/src/assets/img/HyperFan.png"
+                  src="/assets/img/HyperFan.png"
                   alt="hyperFanBadge"
                   className="w-14 mb-2 md:w-20 lg:w-12 xl:w-14 2xl:w-24 rotate"
                 />
@@ -81,7 +81,7 @@ const Profil = () => {
             <div className="flex flex-row justify-around md:justify-center items-center md:w-full">
               <div className="flex flex-col justify-center items-center">
                 <img
-                  src="/src/assets/img/Fan.png"
+                  src="/assets/img/Fan.png"
                   alt="FanBadge"
                   className="w-14 mb-2 md:w-20 lg:w-12  xl:w-14 2xl:w-24 rotate"
                 />
@@ -92,7 +92,7 @@ const Profil = () => {
           <div className="flex flex-col justify-center md:justify-center items-center w-full">
             <p className="font-bold text-4xl mb-4">Super Fan</p>
             <img
-              src="/src/assets/img/SuperFan.png"
+              src="/assets/img/SuperFan.png"
               alt="superFanBadge"
               className="w-36 md:w-56 rotate lg:w-48 xl:w-56 2xl:w-80"
             />
@@ -104,7 +104,7 @@ const Profil = () => {
             <div className="flex flex-row justify-around md:justify-center items-center md:w-full">
               <div className="flex flex-col justify-center items-center">
                 <img
-                  src="/src/assets/img/HyperFan.png"
+                  src="/assets/img/HyperFan.png"
                   alt="hyperFanBadge"
                   className="w-14 mb-2 md:w-20 lg:w-12  xl:w-14 2xl:w-24 rotate"
                 />
@@ -121,7 +121,7 @@ const Profil = () => {
           <div className="flex flex-col justify-center md:justify-center items-center w-full">
             <p className="font-bold text-4xl mb-4">Hyper Fan</p>
             <img
-              src="/src/assets/img/HyperFan.png"
+              src="/assets/img/HyperFan.png"
               alt="hyperFanBadge"
               className="w-64 md:w-80 rotate lg:w-96 xl:w-80 2xl:w-96"
             />
@@ -134,7 +134,7 @@ const Profil = () => {
           <div className="flex flex-row justify-around md:justify-between items-center md:w-full">
             <div className="flex flex-col justify-center items-center">
               <img
-                src="/src/assets/img/Fan.png"
+                src="/assets/img/Fan.png"
                 alt="FanBadge"
                 className="w-14 mb-2 md:w-20 lg:w-12  xl:w-14 2xl:w-24 rotate"
               />
@@ -142,7 +142,7 @@ const Profil = () => {
             </div>
             <div className="flex flex-col justify-center items-center">
               <img
-                src="/src/assets/img/SuperFan.png"
+                src="/assets/img/SuperFan.png"
                 alt="superFanBadge"
                 className="w-14 mb-2 md:w-20 lg:w-12 xl:w-14 2xl:w-24 rotate"
               />
