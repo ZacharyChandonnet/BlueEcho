@@ -3,7 +3,7 @@ import RechercheContact from "./RechercheContact";
 import { useUser } from "../Context/UserContext";
 import ContactItem from "./ContactItems";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
-import Music from "../Animations/Music.json";
+import Music from "../Animations/music.json";
 import { FaPencilAlt } from "react-icons/fa";
 import { IoMdCheckmark } from "react-icons/io";
 import { IoSearch } from "react-icons/io5";
