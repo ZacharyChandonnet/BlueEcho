@@ -1,0 +1,202 @@
+.headerAccueil {
+    background: linear-gradient(#74C8D6, #354798, #E384B5);
+    width: 100%;
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(380deg);
+    }
+}
+
+video {
+    animation: rotate 5s linear infinite;
+}
+
+.grilleDecouverte {
+    padding: 10px;
+    
+    @media screen and (min-width: 480px) {
+        padding: 0;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5em;
+    }
+
+    @media screen and (min-width: 768px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @media screen and (min-width: 1024px) {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto 1fr;
+    }
+
+    @media screen and (min-width: 1536px) {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: auto 1fr;
+    }
+}
+
+.grilleDecouverte li {
+    padding: 30px 0;
+
+    @media screen and (min-width: 480px) {
+        padding: 0;
+    }
+}
+
+.grilleDecouverte li img {
+    border-radius: 5px;
+}
+
+.grilleDecouverte li:nth-child(5),
+.grilleDecouverte li:nth-child(10) {
+    grid-column: 1 / 3;
+    margin: 100px 0;
+    background-color: #7F6EF2;
+    padding: 15px;
+    border-radius: 20px;
+
+    @media screen and (min-width: 768px) {
+        grid-column: 1 / 4;
+    }
+}
+
+.grilleDecouverte li:nth-child(5)::before,
+.grilleDecouverte li:nth-child(10)::before {
+    width: 100%;
+    content: "Découverte de la semaine";
+    font-weight: 600;
+    font-size: 1.2em;
+    position: relative;
+}
+
+.grilleDecouverte li:nth-child(5) img,
+.grilleDecouverte li:nth-child(10) img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 10px;
+    filter: brightness(0.5);
+
+
+    @media screen and (min-width: 1536px) {
+        height: 300px;
+    }
+}
+
+.grilleDecouverte li:nth-child(5) h3,
+.grilleDecouverte li:nth-child(10) h3 {
+    position: absolute;
+    z-index: 1;
+    padding: 25px;
+    font-weight: 900;
+    font-size: xx-large;
+    width: 80%;
+}
+
+.grilleDecouverte li:nth-child(11),
+.grilleDecouverte li:nth-child(12),
+.grilleDecouverte li:nth-child(13),
+.grilleDecouverte li:nth-child(14) {
+    grid-column: 1 / 3;
+    border-radius: 20px;
+
+    @media screen and (min-width: 768px) {
+        grid-column: 1 / 4;
+    }
+}
+
+.grilleDecouverte li:nth-child(6) {
+
+    @media screen and (min-width: 1024px) {
+        grid-column: 1 / 2;
+    }
+}
+
+.grilleDecouverte li:nth-child(11) {
+
+    @media screen and (min-width: 1024px) {
+        grid-column: 1 / 3;
+    }
+
+    @media screen and (min-width: 1536px) {
+        grid-column: 1 / 4;
+    }
+}
+
+.grilleDecouverte li:nth-child(13) {
+
+    @media screen and (min-width: 1024px) {
+        grid-column: 1 / 3;
+    }
+
+    @media screen and (min-width: 1536px) {
+        grid-column: 1 / 4;
+    }
+}
+
+.grilleDecouverte li:nth-child(12) {
+
+    @media screen and (min-width: 1024px) {
+        grid-column: 3 / 5;
+        grid-row: 5 / 6;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    @media screen and (min-width: 1536px) {
+        grid-column: 4 / 7;
+    }
+}
+
+.grilleDecouverte li:nth-child(14) {
+
+    @media screen and (min-width: 1024px) {
+        grid-column: 3 / 5;
+        grid-row: 6 / 7;
+    }
+
+    @media screen and (min-width: 1536px) {
+        grid-column: 4 / 7;
+    }
+}
+
+.grilleDecouverte li:nth-child(11)::before {
+    width: 100%;
+    content: "Voyez en plus";
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+
+.grilleDecouverte li:nth-child(11) img,
+.grilleDecouverte li:nth-child(12) img,
+.grilleDecouverte li:nth-child(13) img,
+.grilleDecouverte li:nth-child(14) img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 10px;
+
+    @media screen and (min-width: 1536px) {
+        height: 200px;
+    }
+}
+
+.grilleDecouverte li:nth-child(11) h3 {
+    margin-top: 50px;
+}
+
+.grilleDecouverte li:nth-child(14) {
+    margin-bottom: 100px;
+}

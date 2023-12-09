@@ -1,0 +1,24 @@
+/* Notification.css */
+.notification-container {
+    position: fixed;
+    bottom: 5em; /* Ajustez la distance par rapport au bas selon vos besoins */
+    right: 20px; /* Ajustez la distance par rapport à la droite selon vos besoins */
+    /* Autres styles de la boîte de notification */
+    border-radius: 0.50rem;
+    padding: 0.5rem;
+}
+
+.notification-item {
+    /* Styles spécifiques à chaque notification */
+    border-radius: 0.50rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: rgb(0 0 0 / 0.50);
+    display: flex;
+    color: white;
+}
+
+.notification-item button {
+    /* Styles du bouton */
+    margin-left: auto; /* Place le bouton "TrashBin" à droite complet */
+  }

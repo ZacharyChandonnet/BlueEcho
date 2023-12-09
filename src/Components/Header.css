@@ -1,0 +1,9 @@
+header ul li button {
+  font-size: 2.5em;
+  /* Ajustez la taille des icônes ici */
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  color: inherit;
+}

@@ -1,0 +1,78 @@
+@media screen and (min-width:1024px) {
+
+    div.grid-interface {
+        display: grid;
+        grid-template-columns: 8% auto;
+        grid-template-rows: auto;
+    }
+
+    div.grid-interface .menu {
+        display: block;
+        position: static;
+        grid-column: 1 / 2;
+        min-height: 100vh;
+        width: 100%;
+        height: 500px;
+        color: white;
+        z-index: 30;
+    }
+
+    div.grid-interface .menu header {
+        border-radius: 0px 0px 0 0;
+        background-color: black;
+        height: 100vh;
+        width: 8%;
+        top: 0;
+        padding: 25px 0 25px 0;
+        position: fixed;
+        border-right: 4px solid;
+        border-image: linear-gradient(to bottom, #74C8D6, #354798, #E384B5) 100%;
+        border-image-slice: 1;
+    }
+
+    div.grid-interface .menu header ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 300px;
+    }
+
+    div.grid-interface .menu header div.ligne {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 3px solid white;
+        width: 60%;
+        border-radius: 20px;
+        margin: 25px auto 0 auto;
+    }
+
+    div.grid-interface .content {
+        grid-column: 2 / 3;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    div.grid-interface .menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        z-index: 30;
+    }
+
+    div.grid-interface .menu header {
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+    }
+}
