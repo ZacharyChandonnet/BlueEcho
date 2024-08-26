@@ -14,3 +14,10 @@
 - Toutes les données proviennent de l'API Deezer. 
  
 Voir le site -> https://blueecho.netlify.app/
+
+## Stack utilisé 
+- React
+- Firebase
+- Tailwind & css
+- FramerMotion
+- APIrest
